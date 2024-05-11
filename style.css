@@ -206,3 +206,21 @@ transform:rotate(-10deg);
         transform: translateX(110px);
     }
 }
+
+.post-card__link{
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+}
+
+.post-card__link:hover{
+    color: rgb(55, 55, 165);
+}
+
+.post-card{
+    transition: 0.35s;
+}
+
+.post-card:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
